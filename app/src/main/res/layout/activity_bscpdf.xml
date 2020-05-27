@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.Bscpdf"
+    android:orientation="vertical"
+    android:background="@color/backgroundcolour">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@color/colorPrimary"
+                android:hapticFeedbackEnabled="false"
+                android:gravity="center_horizontal"
+                android:textColor="#fff"
+                android:textSize="17dp"
+              android:paddingTop="15dp"
+                android:text="Question papers -"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="-14dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="15dp"
+                android:onClick="openpdf"
+                android:scrollbarAlwaysDrawHorizontalTrack="true"
+                app:cardCornerRadius="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView8"
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/booklogo" />
+
+                    <TextView
+                        android:id="@+id/textView10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textSize="18dp"
+                        android:text="Fundamentals of Astronomy" />
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+              android:layout_margin="15dp"
+                android:clickable="true"
+                android:scrollbarAlwaysDrawHorizontalTrack="true"
+                app:cardCornerRadius="4dp"
+                android:onClick="openpdf2">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                   >
+                    <ImageView
+                        android:id="@+id/imageView10"
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/booklogo" />
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textSize="18dp"
+                        android:text="Seed Development  Morphology " />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="15dp"
+                android:clickable="true"
+                android:scrollbarAlwaysDrawHorizontalTrack="true"
+                app:cardCornerRadius="4dp"
+                android:onClick="openpdf4">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    >
+                    <ImageView
+                        android:id="@+id/imageView19"
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/booklogo" />
+                    <TextView
+                        android:id="@+id/textView19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textSize="18dp"
+                        android:text="Plant Breeding (paper-II )" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="15dp"
+                android:clickable="true"
+                android:scrollbarAlwaysDrawHorizontalTrack="true"
+                app:cardCornerRadius="4dp"
+                android:onClick="openpdf4">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    >
+                    <ImageView
+                        android:id="@+id/imageView14"
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/booklogo" />
+                    <TextView
+                        android:id="@+id/textView14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textSize="18dp"
+                        android:text="Basic Electronics (Paper - I) " />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="15dp"
+                android:clickable="true"
+                android:scrollbarAlwaysDrawHorizontalTrack="true"
+                app:cardCornerRadius="4dp"
+                android:onClick="openpdf5">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    >
+                    <ImageView
+                        android:id="@+id/imageView15"
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/booklogo" />
+                    <TextView
+                        android:id="@+id/textView15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textSize="18dp"
+                        android:text="Introduction to Physical Geography (Paper - I) " />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="15dp"
+                android:clickable="true"
+                android:scrollbarAlwaysDrawHorizontalTrack="true"
+                app:cardCornerRadius="4dp"
+                android:onClick="openpdf6">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    >
+                    <ImageView
+                        android:id="@+id/imageView16"
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/booklogo" />
+                    <TextView
+                        android:id="@+id/textView16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textSize="18dp"
+                        android:text="Biomolecules - I (Paper - I)  " />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="15dp"
+                android:clickable="true"
+                android:scrollbarAlwaysDrawHorizontalTrack="true"
+                app:cardCornerRadius="4dp"
+                android:onClick="openpdf7">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    >
+                    <ImageView
+                        android:id="@+id/imageView17"
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/booklogo" />
+                    <TextView
+                        android:id="@+id/textView17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textSize="18dp"
+                        android:text="English for Communication (Paper - I)   " />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="15dp"
+                android:clickable="true"
+                android:scrollbarAlwaysDrawHorizontalTrack="true"
+                app:cardCornerRadius="4dp"
+                android:onClick="openpdf8">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    >
+                    <ImageView
+                        android:id="@+id/imageView199"
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/booklogo" />
+                    <TextView
+                        android:id="@+id/textView199"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textSize="18dp"
+                        android:text="MATHEMATICS Calculus (Paper - II)    " />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

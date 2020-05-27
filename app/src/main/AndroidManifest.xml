@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.e.pune">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ui.home.pdfshow8"></activity>
+        <activity android:name=".ui.home.pdfshow7" />
+        <activity android:name=".ui.home.pdfshow6" />
+        <activity android:name=".ui.home.pdfshow5" />
+        <activity android:name=".ui.home.pdfshow4" />
+        <activity android:name=".ui.home.pdfshow2" />
+        <activity
+            android:name=".ui.home.pdfshow1"
+            android:parentActivityName=".ui.home.Bscpdf" />
+        <activity
+            android:name=".ui.home.Bscpdf"
+            android:parentActivityName=".ui.home.mayu" />
+        <activity
+            android:name=".ui.home.mayu"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".ui.study.study" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
